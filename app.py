@@ -32,7 +32,7 @@ arxiv = ArxivQueryRun(api_wrapper=api_wrapper_arxiv)
 search = DuckDuckGoSearchRun(name='Search')
 
 # App title
-st.markdown("<h1 class='title'>LangChain Chatbot with Search Capabilities</h1>", unsafe_allow_html=True)
+st.markdown("<h1 class='title'>Data Digger: Chat with Search</h1>", unsafe_allow_html=True)
 
 # Sidebar for settings
 with st.sidebar:
